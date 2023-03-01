@@ -4,11 +4,11 @@ public class conceitodeNos {
 
     //public static void main(String[] args) {
 
-        private String conteudo;
-        private NO proximoNO = null;
+        public String conteudo;
+        private conceitodeNos proximoNO;
         //private NO proximoNO = null;
 
-        public void No(String conteudo){
+        public void conceitoNos (String conteudo){
 
             this.proximoNO = null;
             this.conteudo = conteudo;
@@ -23,11 +23,11 @@ public class conceitodeNos {
         this.conteudo = conteudo;
     }
 
-    public N0 getProximoNO() {
+    public conceitodeNos getProximoNO() {
         return proximoNO;
     }
 
-    public void setProximoNO(NO proximoNO) {
+    public void setProximoNO(conceitodeNos proximoNO) {
         this.proximoNO = proximoNO;
     }
 
