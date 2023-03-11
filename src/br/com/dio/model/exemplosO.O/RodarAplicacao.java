@@ -34,7 +34,13 @@ public class RodarAplicacao {
         //System.out.println(carro2.getCapacidadeTanque());
        // System.out.println(carro2.totalValorTanque(6.46));
 
+        funcionario funcionarioA = new funcionario();
+        funcionario gerente = new gerente();
+        funcionario vendedor = new vendedor();
+        funcionario faxineiro = new faxineiro();
 
+        //
+        //vendedor vendedor_ =  (vendedor) new funcionario();
 
     }
 
