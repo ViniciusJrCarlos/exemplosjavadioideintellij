@@ -1,4 +1,4 @@
-package dio.diospringsecurity;
+package dio.diospringsecurity.controller;
 
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -13,7 +13,7 @@ public class WelcomeController {
         return "Bem Vindos Spring boot Web API";
     }
     @GetMapping("/users")
-    //@PreAuthorize("hasAnyRole('MANAGERS','USERS')")
+   //@PreAuthorize("hasAnyRole('MANAGERS','USERS')")
 
     public String users(){
 
